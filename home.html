@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- ---------- NAVBAR ---------- -->
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- ---------- HOME SECTION ---------- -->
+  <section id="home">
+    <h1>Hi, I'm Alex Carter</h1>
+    <h2>Front-End Developer & Designer</h2>
+    <p>
+      I create beautiful, responsive, and engaging websites that help brands grow digitally.
+      Welcome to my fictional portfolio!
+    </p>
+    <button class="btn" onclick="window.location.href='#projects'">View My Work</button>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------- ABOUT SECTION ---------- -->
+  <section id="about">
+    <div class="about-container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm <span class="highlight">Alex Carter</span>, a passionate Front-End Developer with a flair for crafting engaging web experiences.
+            I blend creativity with clean code to build visually appealing and high-performing websites.
+          </p>
+          <p>
+            I specialize in turning complex ideas into user-friendly digital products. 
+            My fictional journey includes collaborating with creative agencies and tech startups to design interfaces that users love.
+          </p>
+          <p>
+            When I’m not coding, I enjoy sketching UI concepts, exploring modern design systems, and mentoring new developers in my imaginary studio — 
+            <span class="highlight">PixelForge Labs</span>.
+          </p>
+        </div>
+        <div class="skills-box">
+          <h3>My Core Skills</h3>
+          <ul class="skills-list">
+            <li>HTML5 / CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Principles</li>
+            <li>Git & GitHub</li>
+            <li>Creative Problem Solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- ---------- PROJECTS SECTION ---------- -->
+  <section id="projects">
+    <div class="projects-container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-img" style="background-image: url('https://picsum.photos/600/400?random=1');"></div>
+          <div class="project-info">
+            <h3>Nova Landing Page</h3>
+            <p>
+              A sleek and modern fictional landing page designed for a creative agency called 
+              <span class="highlight">Nova Studio</span>. Built with HTML, CSS, and JavaScript to emphasize smooth animations.
+            </p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-img" style="background-image: url('https://picsum.photos/600/400?random=2');"></div>
+          <div class="project-info">
+            <h3>Orion Dashboard</h3>
+            <p>
+              A fictional analytics dashboard concept for a startup named 
+              <span class="highlight">Orion Data</span>, featuring interactive charts and responsive layouts.
+            </p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-img" style="background-image: url('https://picsum.photos/600/400?random=3');"></div>
+          <div class="project-info">
+            <h3>Zen Portfolio</h3>
+            <p>
+              A minimalist portfolio website concept for freelancers, built to showcase visual aesthetics and seamless navigation.
+            </p>
+            <a href="#" class="project-btn">View Project</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+
+
+
+    <!-- ---------- CONTACT SECTION ---------- -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="contact-intro">
+        I'd love to connect! Whether you have a project idea, collaboration request, or just want to say hello,
+        feel free to drop a message below. This is a fictional portfolio, but the vibe is real. 🚀
+      </p>
+
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <form class="contact-form" onsubmit="return false;">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> suryachandrabeeram@gmail.com</p>
+          <p><strong>Phone:</strong> +91 6303486186</p>
+          <p><strong>Location:</strong> Hyderabad</p>
+
+          <div class="social-icons">
+            <a href="https://github.com/uniqueupsc"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEW SECTION BELOW FORM -->
+      <div class="direct-links">
+        <h3>Connect Directly</h3>
+        <div class="direct-links-list">
+          <a href="mailto:suryachandrabeeram@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i> suryachandrabeeram@gmail.com
+          </a>
+          <a href="https://wa.me/916303486186" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp: +91 6303486186
+          </a>
+          <a href="https://www.linkedin.com/in/beeramsuryachandra/" target="_blank">
+            <i class="fab fa-linkedin"></i> linkedin.com/in/alexcarter
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ---------- FOOTER ---------- -->
+  <footer>
+    <p>© 2025 Beeram Surya chandra | Crafted with ❤️ using HTML, CSS & JS </p>
+  </footer>
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+</html>
